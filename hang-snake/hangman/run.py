@@ -34,6 +34,6 @@ while tries > 0:
                     isRunning = False
                     break
 
-    # clear_terminal()
 if tries == 0:
-    print('You lost!!!')
+    print('GAME OVER!!!')
+    print(word)
