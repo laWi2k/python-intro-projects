@@ -1,4 +1,3 @@
-from common.util import clear_terminal
 from random import randint
 import dict
 import hangmanConfig
@@ -33,6 +32,7 @@ while tries > 0:
                     print('You won!!!')
                     isRunning = False
                     break
+    clear_terminal()
 
 if tries == 0:
     print('GAME OVER!!!')
